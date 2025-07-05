@@ -2,13 +2,6 @@
 
 This repository provides a simple Python script (`aic-sa-access-token.py`) to automate the OAuth 2.0 JWT‑Bearer flow for obtaining an access token from a PingOne Advanced Identity Cloud (AIC) service account. Instead of manually crafting JWT assertions and cURL commands, this script handles all steps programmatically.
 
-## 🎯 Value Proposition
-
-* **Automation & Efficiency**: Eliminates repetitive manual steps and reduces human error when fetching tokens.
-* **Reproducibility**: Guarantees consistent JWT creation and token retrieval across environments.
-* **Integration‑Ready**: Scriptable in CI/CD pipelines, build processes, or other automation frameworks.
-* **Extensibility**: Easy to adapt for additional parameters, logging, or integration with other tooling.
-
 ## 🛠️ Prerequisites
 
 1. **Python 3.7+** installed. Verify with:
